@@ -8,4 +8,4 @@ Paste the following code into your browser address bar:
     
     
 
-If you want to actually read it, check out [index.html](https://github.com/umpox/TinyEditor/blob/master/index.html)
+If you want to read the code, check out [index.html](https://github.com/umpox/TinyEditor/blob/master/index.html)
