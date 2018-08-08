@@ -1,6 +1,5 @@
 <body 
-    oninput="document.querySelector('iframe').
-            srcdoc=h.value+'<style>'+c.value+
+    oninput="i.srcdoc=h.value+'<style>'+c.value+
             '</style><script>'+j.value+'<\/script>'">
     <style>
         textarea,iframe{float:right;width:100%;height:50%}
@@ -10,4 +9,4 @@
     <textarea placeholder=JS id=j></textarea>
     <textarea placeholder=CSS id=c></textarea>
     <textarea placeholder=HTML id=h></textarea>
-    <iframe>
+    <iframe id=i>
