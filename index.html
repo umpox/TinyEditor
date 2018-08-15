@@ -1,6 +1,8 @@
+<style>
+  [id]{display:flex;flex-flow:wrap;font-size:1em;flex:1}
+</style>
 <body
-  oninput="i.srcdoc=`${h.value}<style>${c.value}</style><script>${j.value}</script>`"
-  onload="document.body.innerHTML+='hcj'.replace(/./g,'<textarea id=$&></textarea>')+'<hr width=100%><iframe id=i>'">
-  <style>
-    body,[id]{display:flex;flex-flow:wrap;font-size:1em;flex:1}
-  </style>
+  oninput="i.srcdoc=h[v='value']+`<style>${c[v]}</style><script>${j[v]}</script>`"
+  onload="b.innerHTML+='hcj'.replace(/./g,'<textarea id=$&></textarea>')+'<hr width=100%><iframe id=i>'"
+  id=b
+>
