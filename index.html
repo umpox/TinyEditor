@@ -1,8 +1,10 @@
 <style>
-  [id]{display:flex;flex-flow:wrap;font-size:1em;flex:1}
+  #b>*{height:50%;}
+  *{margin:0;width:100%}
+  [t]{width:33.33%}
 </style>
 <body
-  oninput="i.srcdoc=h[v='value']+`<style>${c[v]}</style><script>${j[v]}</script>`"
-  onload="b.innerHTML+='hcj'.replace(/./g,'<textarea id=$&></textarea>')+'<hr width=100%><iframe id=i>'"
+  oninput="i.srcdoc=H[v='value']+`<style>${C[v]}</style><script>${J[v]}</script>`"
+  onload="b.innerHTML='HTML,CSS,JS,'.replace(/((.).+?),/g,'<textarea id=$2 placeholder=$1 t>')+'<iframe id=i>'"
   id=b
 >
