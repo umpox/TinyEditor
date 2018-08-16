@@ -1,12 +1,10 @@
-<body 
-    oninput="i.srcdoc=h.value+'<style>'+c.value+
-            '</style><script>'+j.value+'<\/script>'">
-    <style>
-        textarea,iframe{width:100%;height:50%}
-        body{margin:0}
-        textarea{width:33.33%;font-size:18}
-    </style>
-    <textarea placeholder=HTML id=h></textarea>
-    <textarea placeholder=CSS id=c></textarea>
-    <textarea placeholder=JS id=j></textarea>
-    <iframe id=i>
+<style>
+  #b>*{height:50%;}
+  *{margin:0;width:100%}
+  [t]{width:33.33%}
+</style>
+<body
+  oninput="i.srcdoc=H[v='value']+`<style>${C[v]}</style><script>${J[v]}</script>`"
+  onload="b.innerHTML='HTML,CSS,JS,'.replace(/((.).+?),/g,'<textarea id=$2 placeholder=$1 t></textarea>')+'<iframe id=i>'"
+  id=b
+>
