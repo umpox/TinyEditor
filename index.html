@@ -1,10 +1,4 @@
-<body oninput="i.srcdoc=h.value+'<style>'+c.value+'</style><script>'+j.value+'</script>'">
-<style>
-#i,textarea{width:100%;height:50%}
-body{margin:0}
-textarea{width:33.33%;font-size:18}
-</style>
-<textarea placeholder=HTML id=h></textarea>
-<textarea placeholder=CSS id=c></textarea>
-<textarea placeholder=JS id=j></textarea>
-<iframe id=i>
+<body oninput="I.srcdoc=H.value+'<style>'+C.value+'</style><script>'+J.value+'</script>'">
+<style>[id]{width:33%;height:50%}#I{width:99%}</style>
+<script>document.write('HTML CSS JS'.replace(/(\w)(\w+)/g,'<textarea placeholder=$1$2 id=$1></textarea>'))</script>
+<iframe id=I>
