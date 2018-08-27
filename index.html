@@ -1,12 +1,13 @@
-<body 
-    oninput="i.srcdoc=h.value+'<style>'+c.value+
-            '</style><script>'+j.value+'<\/script>'">
-    <style>
-        textarea,iframe{width:100%;height:50%}
-        body{margin:0}
-        textarea{width:33.33%;font-size:18}
-    </style>
-    <textarea placeholder=HTML id=h></textarea>
-    <textarea placeholder=CSS id=c></textarea>
-    <textarea placeholder=JS id=j></textarea>
-    <iframe id=i>
+<body class="w-100 h-100 ma0"
+	oninput="i.srcdoc=h.value+'<style>@import url(https://unpkg.com/tachyons/css/tachyons.min.css);'+c.value+
+			'</style><script>'+j.value+'</script>'">
+	<style>
+		@import url(https://unpkg.com/tachyons/css/tachyons.min.css);
+		.h-33{height:33.33%}
+		.h-66{height:66.66%}
+	</style>
+	<textarea class="w-third h-33 fl code f5" placeholder=HTML id=h></textarea>
+	<textarea class="w-third h-33 fl code f5" placeholder=CSS id=c></textarea>
+	<textarea class="w-third h-33 fl code f5" placeholder=JS id=j></textarea>
+	<iframe class="w-100 h-66 bn" id=i></iframe>
+	<button class="fixed top-0 right-0" onclick="prompt('','https://itty.bitty.site/#/data:text/html;charset=utf-8,'+i.srcdoc)">...
