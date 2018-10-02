@@ -1,0 +1,18 @@
+iframe{
+  width:100%;
+  height:50%;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+}
+
+body{
+  margin:1px;
+  background-color: #999999;
+}
+
+textarea{
+  width: 33.105%;
+  height: 50%;
+  font-size:18;
+  border: 1px solid #000000;
+}
